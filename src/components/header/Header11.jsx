@@ -75,15 +75,7 @@ export default function Header11() {
                             </div>
                             <div className="col-auto pe-0 pe-xl-3">
                                 <div className="d-flex align-items-center">
-                                    <Link
-                                        className="login-info mx15-xl mx30"
-                                        href="/become-seller"
-                                    >
-                                        <span className="d-none d-xl-inline-block">
-                                            Become a
-                                        </span>{" "}
-                                        Seller
-                                    </Link>
+                                   
                                     <Link
                                         className="login-info mr15-xl mr10 ud-btn btn-dark add-joining bdrs50 dark-color bg-transparent"
                                         href="/login"

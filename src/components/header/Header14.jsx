@@ -1,3 +1,4 @@
+// home version 15
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,15 +33,7 @@ export default function Header14() {
                             </div>
                             <div className="col-auto pe-0 pe-xl-3">
                                 <div className="d-flex align-items-center">
-                                    <Link
-                                        className="login-info mx15-xl mx30"
-                                        href="/seller"
-                                    >
-                                        <span className="d-none d-xl-inline-block">
-                                            Become a
-                                        </span>{" "}
-                                        Seller
-                                    </Link>
+                                   
                                     <Link
                                         className="login-info mr15-xl mr10 ud-btn btn-dark add-joining bdrs12 dark-color bg-transparent"
                                         href="/login"

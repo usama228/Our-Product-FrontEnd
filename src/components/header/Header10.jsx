@@ -1,4 +1,5 @@
 "use client";
+// home version 11
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,9 +51,7 @@ export default function Header10() {
                                             />
                                         </Link>
                                     </div>
-                                    <div className="home1_style">
-                                        <Mega />
-                                    </div>
+                                    
 
                                     <Navigation id="respMenu" />
                                 </div>
@@ -60,24 +59,16 @@ export default function Header10() {
                             <div className="col-auto px-0">
                                 <div className="d-flex align-items-center">
                                     <a
-                                        className="login-info"
+                                        className="login-info mr20"
                                         data-bs-toggle="modal"
                                         href="#exampleModalToggle"
                                         role="button"
                                     >
                                         <span className="flaticon-loupe"></span>
                                     </a>
+                                    
                                     <Link
-                                        className="login-info mx10-lg mx30"
-                                        href="/become-seller"
-                                    >
-                                        <span className="d-none d-xl-inline-block">
-                                            Become a
-                                        </span>{" "}
-                                        Seller
-                                    </Link>
-                                    <Link
-                                        className="login-info mr10-lg mr30"
+                                        className="login-info mr10-lg mr30 "
                                         href="/login"
                                     >
                                         Sign in

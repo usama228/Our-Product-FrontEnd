@@ -1,17 +1,9 @@
 const menus = [
-  {
-    id: 1,
-    name: "Home",
-    children: [
-      // { id: 1, name: "Home V1", path: "/" },
-   
-      { id: 11, name: "Home V11", path: "/home-11" },
-  
-      { id: 15, name: "Home V15", path: "/home-15" },
-      { id: 18, name: "Home V18", path: "/home-18" },
-
-    ],
-  },
+ {
+  id: 1,
+  name: "Home",
+  path: "/", // ✅
+},
   {
     id: 2,
     name: "Browse Jobs",
