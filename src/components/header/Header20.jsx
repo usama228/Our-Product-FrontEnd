@@ -22,10 +22,10 @@ export default function Header20() {
                                         href="/"
                                     >
                                         <Image
-                                            height={40}
+                                            height={70}
                                             width={133}
-                                            className="w-100 h-100 object-fit-contain"
-                                            src="/images/header-logo-dark.svg"
+                                            className="w-30 h-30 object-fit-contain"
+                                            src="/images/header-logo3.svg"
                                             alt="Header Logo"
                                         />
                                     </Link>

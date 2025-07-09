@@ -22,7 +22,7 @@ export default function Header18() {
                                             <Image
                                                 width={133}
                                                 height={40}
-                                                src="/images/header-logo-dark2.svg"
+                                                src="/images/header-logo3.svg"
                                                 alt="Header Logo"
                                             />
                                         </Link>

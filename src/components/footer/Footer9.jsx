@@ -98,19 +98,21 @@ export default function Footer9() {
             <div className="container white-bdrt1 py-4">
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <div className="text-center text-lg-start">
-                            <p className="copyright-text mb-2 mb-md-0 text-white-light ff-heading">
-                                © Freeio. 2023
-                                <Link
-                                    href="https://themeforest.net/user/ib-themes/portfolio"
-                                    target="_blank"
-                                    style={{ color: "inherit" }}
-                                >
-                                    ib-themes
-                                </Link>
-                                . All rights reserved.
-                            </p>
-                        </div>
+                    <div className="col-md-6">
+                            <div className="text-center text-lg-start">
+                                <p className="copyright-text mb-2 mb-md-0 text-white-light ff-heading">
+                                    © UDEVS. 2023
+                                    <Link
+                                        href="https://themeforest.net/user/ib-themes/portfolio"
+                                        target="_blank"
+                                        style={{ color: "inherit" }}
+                                    >
+                                       Innovating Web Solutions
+                                    </Link>
+                                    . All rights reserved.
+                                </p>
+                            </div>
+                        </div>    
                     </div>
                     <div className="col-md-6">
                         <div className="footer_bottom_right_btns text-center text-lg-end">

@@ -54,7 +54,7 @@ export default function Header11() {
                                             <Image
                                                 width={133}
                                                 height={40}
-                                                src="/images/header-logo-dark.svg"
+                                                src="/images/header-logo3.svg"
                                                 alt="/Header Logo"
                                             />
                                         </Link>
@@ -65,7 +65,7 @@ export default function Header11() {
                                             <Image
                                                 width={133}
                                                 height={40}
-                                                src="/images/header-logo-dark.svg"
+                                                src="/images/header-logo3.svg"
                                                 alt="Header Logo"
                                             />
                                         </Link>

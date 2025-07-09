@@ -122,7 +122,7 @@ export default function Footer13() {
                     <div className="col-md-6">
                         <div className="text-center text-lg-start">
                             <p className="copyright-text mb-2 mb-md-0 text-white-light ff-heading">
-                                © Freeio. 2023 CreativeLayers. All rights
+                                © UDEVS. 2023 CreativeLayers. All rights
                                 reserved.
                             </p>
                         </div>
