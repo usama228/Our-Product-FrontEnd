@@ -4,7 +4,7 @@ export default function Mega({ staticMenuClass }) {
   return (
     <>
       <div id="mega-menu">
-        <a
+        {/* <a
           className={`btn-mega fw500 ${
             staticMenuClass ? staticMenuClass : ""
           } `}
@@ -15,7 +15,7 @@ export default function Mega({ staticMenuClass }) {
             } `}
           />
           Categories
-        </a>
+        </a> */}
         {/* <ul className="menu ps-0">
           <li>
             <a className="dropdown">

@@ -4,22 +4,28 @@ const menus = [
   name: "Home",
   path: "/", // ✅
 },
-  {
-    id: 2,
-    name: "Browse Jobs",
-    children: [
+ {
+        id: 1,
+  name: "About",
+  path: "/about-1", // direct path
+      },
       {
         id: 1,
         name: "Services",
 
         children: [
-          { id: 1, name: "Service v1", path: "/service-1" },
+          { id: 1, name: "App Development", path: "/service-1" },
          
          
-          { id: 9, name: "Service Single v1", path: "/service-single" },
+          { id: 9, name: "AI Transformation", path: "/service-single" },
        
         ],
       },
+  {
+    id: 2,
+    name: "Look Inside",
+    children: [
+      
       {
         id: 2,
         name: "Projects",
@@ -31,13 +37,25 @@ const menus = [
         ],
       },
       {
-        id: 3,
-        name: "Job View",
-        children: [
-          { id: 1, name: "Job list v1", path: "/job-1" },
-      
-        ],
+        id: 2,
+        name: "Blog",
+        path: "/blog-1"
+        
+         
+          // { id: 2, name: "List 2", path: "/blog-2" },
+          // { id: 3, name: "List 3", path: "/blog-3" },
+          // { id: 4, name: "Single", path: "/blog-single" },
+        
       },
+
+      // {
+      //   id: 3,
+      //   name: "Job View",
+      //   children: [
+      //     { id: 1, name: "Job list v1", path: "/job-1" },
+      
+      //   ],
+      // },
     ],
   },
   {
@@ -120,24 +138,8 @@ const menus = [
     id: 4,
     name: "Pages",
     children: [
-      {
-        id: 1,
-        name: "About",
-        children: [
-          { id: 1, name: "About v1", path: "/about-1" },
-        
-        ],
-      },
-      {
-        id: 2,
-        name: "Blog",
-        children: [
-          { id: 1, name: "List 1", path: "/blog-1" },
-          // { id: 2, name: "List 2", path: "/blog-2" },
-          // { id: 3, name: "List 3", path: "/blog-3" },
-          // { id: 4, name: "Single", path: "/blog-single" },
-        ],
-      },
+     
+      
       // {
       //   id: 3,
       //   name: "Shop",

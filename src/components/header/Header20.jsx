@@ -44,19 +44,7 @@ export default function Header20() {
                                     >
                                         <span className="flaticon-loupe" />
                                     </a>
-                                    <Link
-                                        className={`login-info mx15-lg mx30 ${
-                                            path === "/become-seller"
-                                                ? "ui-active"
-                                                : ""
-                                        }`}
-                                        href="/become-seller"
-                                    >
-                                        <span className="d-none d-xl-inline-block">
-                                            Become a
-                                        </span>{" "}
-                                        Seller
-                                    </Link>
+                                    
                                     <Link
                                         className={`login-info mr15-lg mr30 ${
                                             path === "/login" ? "ui-active" : ""
