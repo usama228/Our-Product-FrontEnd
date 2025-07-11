@@ -39,9 +39,9 @@ export default function Breadcumb4() {
           />
           <Image
             height={300}
-            width={532}
+            width={282}
             className="service-v1-vector bounce-y d-none d-lg-block"
-            src="/images/vector-img/vector-service-v1.png"
+            src="/images/background/bg.png"
             alt="vector-img"
           />
 

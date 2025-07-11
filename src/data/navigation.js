@@ -135,9 +135,14 @@ const menus = [
     ],
   },
   {
-    id: 4,
-    name: "Pages",
-    children: [
+  id: 4,
+         name: "Contact",
+         path: "/contact",
+       },
+  // {
+  //   id: 4,
+  //   name: "Pages",
+  //   // children: [
      
       
       // {
@@ -151,63 +156,63 @@ const menus = [
       //     { id: 5, name: "Order", path: "/shop-order" },
       //   ],
       // },
-      {
-        id: 4,
-        name: "Contact",
-        path: "/contact",
-      },
-      {
-        id: 5,
-        name: "404",
-        path: "/not-found",
-      },
-      // {
-      //   id: 6,
-      //   name: "Faq",
-      //   path: "/faq",
-      // },
-      // {
-      //   id: 7,
-      //   name: "Help",
-      //   path: "/help",
-      // },
-      // {
-      //   id: 8,
-      //   name: "Invoices",
-      //   path: "/invoices",
-      // },
-      {
-        id: 9,
-        name: "Login",
-        path: "/login",
-      },
-      {
-        id: 10,
-        name: "Pricing",
-        path: "/pricing",
-      },
-      {
-        id: 11,
-        name: "Register",
-        path: "/register",
-      },
-      {
-        id: 12,
-        name: "Terms",
-        path: "/terms",
-      },
-      {
-        id: 13,
-        name: "UI Elements",
-        path: "/ui-elements",
-      },
-    ],
-  },
-  {
-    id: 5,
-    name: "Contact",
-    path: "/contact",
-  },
+  //     {
+  //       id: 4,
+  //       name: "Contact",
+  //       path: "/contact",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "404",
+  //       path: "/not-found",
+  //     },
+  //     // {
+  //     //   id: 6,
+  //     //   name: "Faq",
+  //     //   path: "/faq",
+  //     // },
+  //     // {
+  //     //   id: 7,
+  //     //   name: "Help",
+  //     //   path: "/help",
+  //     // },
+  //     // {
+  //     //   id: 8,
+  //     //   name: "Invoices",
+  //     //   path: "/invoices",
+  //     // },
+  //     {
+  //       id: 9,
+  //       name: "Login",
+  //       path: "/login",
+  //     },
+  //     {
+  //       id: 10,
+  //       name: "Pricing",
+  //       path: "/pricing",
+  //     },
+  //     {
+  //       id: 11,
+  //       name: "Register",
+  //       path: "/register",
+  //     },
+  //     {
+  //       id: 12,
+  //       name: "Terms",
+  //       path: "/terms",
+  //     },
+  //     {
+  //       id: 13,
+  //       name: "UI Elements",
+  //       path: "/ui-elements",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   name: "Contact",
+  //   path: "/contact",
+  // },
 ];
 
 export default menus;
